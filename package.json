@@ -1,11 +1,10 @@
 {
-  "name": "camo",
+  "name": "camouflage",
   "version": "0.8.0",
   "description": "A class-based ES6 ODM for Mongo-like databases.",
   "author": {
-    "name": "Scott Robinson",
-    "email": "s.w.robinson@gmail.com",
-    "url" : "http://stackabuse.com"
+    "name": "Kevin Groat",
+    "email": "kgroat09@gmail.com"
   },
   "keywords": [
     "es6",
@@ -22,10 +21,10 @@
     "query",
     "db"
   ],
-  "homepage": "https://github.com/scottwrobinson/camo",
+  "homepage": "https://github.com/thegrtman/camouflage",
   "repository": {
     "type": "git",
-    "url": "git@github.com:scottwrobinson/camo.git"
+    "url": "git@github.com:thegrtman/camouflage.git"
   },
   "license": "MIT",
   "scripts": {

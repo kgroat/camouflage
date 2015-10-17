@@ -1,4 +1,5 @@
-# Camo
+# Camouflage
+A fork of [Camo by scottwrobinson](https://github.com/scottwrobinson/camo)
 
 ## Jump To
 * <a href="#why-do-we-need-another-odm">Why do we need another ODM?</a>
