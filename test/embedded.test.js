@@ -70,7 +70,7 @@ describe('Embedded', function() {
                 validateId(d);
                 expect(d.num).to.be.equal(1);
                 expect(d.mod).to.be.a('object');
-                expect(d.mod instanceof EmbeddedModel).to.be.true;
+                expect(d.mod).to.be.an.instanceof(EmbeddedModel);
                 expect(d.mod.str).to.be.equal('some data');
             }).then(done, done);
         });
