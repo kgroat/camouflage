@@ -147,7 +147,8 @@ this.primeNumber = {
 	default: 2,
 	min: 0,
 	max: 25,
-	choices: [2, 3, 5, 7, 11, 13, 17, 19, 23]
+	choices: [2, 3, 5, 7, 11, 13, 17, 19, 23],
+	index: true
 }
 ```
 
@@ -160,6 +161,7 @@ The `default` option supports both values and no-argument functions (like `Date.
 - `choices`: A list of possible values *(optional)*
 - `match`: A regex string that should match the value *(optional)*
 - `validate`: A 1-argument function that returns `false` if the value is invalid *(optional)*
+- `index`: Create an index on the given field if `true` or a string; a string can be supplied to define the index type, like `'2d'` *(optional)*
 
 To reference another document, just use its class name as the type.
 
